@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "scheduler",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,9 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "antd": "^4.7.2",
+    "bryntum-react-shared": "file:../../schedulerpro-4.0.0-trial/examples-scheduler/react/_shared/build",
+    "bryntum-schedulerpro": "file:../../schedulerpro-4.0.0-trial/build",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-scripts": "3.4.3",
@@ -35,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1"
   }
 }
